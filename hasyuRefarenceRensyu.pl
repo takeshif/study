@@ -18,11 +18,24 @@ my $fav3 = {
 				favorite_foods => ['choko',  'grape']
 };
 
+my $fav4 = {
+				name => 'aa',  
+				favorite_foods => ['bisket',  'grape']
+};
+
+
+my $fav5 = {
+				name => 'a',  
+				favorite_foods => ['bisket',  'grape']
+};
+
 #----- ハッシュを配列にセットする
 my @favo;
 push @favo, $fav;
 push @favo, $fav2; 
 push @favo, $fav3;
+push @favo, $fav4; 
+push @favo, $fav5;
 
 #----- 配列にセットしたハッシュのキーのfavorite_foodsがまた配列のリファレンスなのでデファレントしてランクのハッシュを作成する
 my %cnt;
